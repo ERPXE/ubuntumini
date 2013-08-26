@@ -1,0 +1,8 @@
+LABEL UBUNTUMINIREMIX64
+MENU LABEL ^Ubuntu Rescue Remix 11.10 x64
+KERNEL er/plugins/ubuntumini/x86_64/vmlinuz
+INITRD er/plugins/ubuntumini/x86_64/initrd.lz
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/ubuntumini/x86_64 ramdisk_size=200000 nolock
+TEXT HELP
+                 Ubuntu Mini Remix.
+ENDTEXT

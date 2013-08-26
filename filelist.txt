@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+ubuntumini.menu
+ubuntumini.png
+x86_64
+
+./i386:
+initrd.lz
+ubuntuminimain.menu
+vmlinuz
+
+./x86_64:
+initrd.lz
+ubuntuminimain.menu
+vmlinuz

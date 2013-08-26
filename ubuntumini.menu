@@ -1,0 +1,14 @@
+MENU BEGIN UBUNTUMINI
+MENU LABEL ^Ubuntu Mini Remix 11.10
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/ubuntumini/ubuntumini.png
+
+MENU INCLUDE er/plugins/ubuntumini/i386/ubuntuminimain.menu
+MENU INCLUDE er/plugins/ubuntumini/x86_64/ubuntuminimain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
